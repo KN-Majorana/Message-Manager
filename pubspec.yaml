@@ -1,0 +1,25 @@
+name: message_manager
+description: Teams / Slack / Outlook / Gmail の新着をデスクトップに 4 分割で表示するウィジェット
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  url_launcher: ^6.3.0
+  xml: ^6.5.0
+  sqlite3: ^2.4.7
+  sqlite3_flutter_libs: ^0.5.26
+  googleapis_auth: ^2.0.0
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
