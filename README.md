@@ -44,7 +44,7 @@ flutter build windows         # 配布用ビルド
 
 ## 3. 常駐させる
 
-1. `build\windows\x64\runner\Release\` フォルダを**フォルダごと**、移動しない場所にコピーします（例：`C:\Users\81809\AppData\Local\MessageManager\`）。
+1. `build\windows\x64\runner\Release\` フォルダを**フォルダごと**、移動しない場所にコピーします（例：`%LOCALAPPDATA%\MessageManager\`）。
 2. コピーした先の `message_manager.exe` を一度だけ起動します。
 3. 起動時に、その exe のパスが Windows のスタートアップ（`HKCU\...\Run`）に登録されます。以後はログインするたびに自動で起動します。
 
